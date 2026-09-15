@@ -16,8 +16,37 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from biography.views import MohanalView
+from biography.views import MohanlalView
+from biography.views import MammoottyView
+from biography.views import FahadhView
+from biography.views import DulquerView
+from biography.views import PrithvirajView
+from biography.views import TovinoThomasView
+from biography.views import NivinPaulyView
+from biography.views import AsifAliView
+from biography.views import AntonyVargheseView
+from biography.views import AjuVargheseView
+from biography.views import NaslenView
+from biography.views import ArjunAshokanView
+from biography.views import BasilJosephView
+from biography.views import SandeepPradeepView
+from biography.views import SharafudheenView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mohanal/',MohanalView.as_view()),
+    path('mohanal/',MohanlalView.as_view()),
+    path('mamooty/',MammoottyView.as_view()),
+    path('fahaadh/',FahadhView.as_view()),
+    path('dulquer/',DulquerView.as_view()),
+    path('prithiraj/',PrithvirajView.as_view()),
+    path('tovino/',TovinoThomasView.as_view()),
+    path('nivin/',NivinPaulyView.as_view()),
+    path('asifali/',AsifAliView.as_view()),
+    path('antony/',AntonyVargheseView.as_view()),
+    path('aju/',AjuVargheseView.as_view()),
+    path('naslen/',NaslenView.as_view()),
+    path('arjunashokan/',ArjunAshokanView.as_view()),
+    path('bj/',BasilJosephView.as_view()),
+    path('sandeep/',SandeepPradeepView.as_view()),
+    path('sharafudeen/',SharafudheenView.as_view()),
 ]
