@@ -1,0 +1,31 @@
+#---commant line----
+#HTTP Method name  url
+#accept/content-type: application/json
+#authorization:username  password
+
+#request body {}
+
+#--Api call for about details--
+###
+GET http://127.0.0.1:8000/about/
+Accept: application/json
+
+#--api call for education details--
+###
+GET http://127.0.0.1:8000/education/
+Accept: application/json
+
+#--api call for project details--
+###
+GET http://127.0.0.1:8000/project/
+Accept: application/json
+
+#--api call for skills details--
+###
+GET http://127.0.0.1:8000/skills/
+Accept: : application/json
+
+#--api call for certificate details--
+###
+GET http://127.0.0.1:8000/certificate/
+Accept: application/json
