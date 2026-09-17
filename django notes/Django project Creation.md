@@ -44,4 +44,4 @@ runserver    → Django server run
 
 ## Basic Flow:
 
-venv → install Django → startproject → startapp → runserver
+venv → install Django → startproject → startapp → runserver_
